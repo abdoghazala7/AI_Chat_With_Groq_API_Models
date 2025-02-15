@@ -6,7 +6,7 @@ This project is a Streamlit-based web application that allows users to interact 
 
 ## Features
 
-- **Multiple AI Models**: Choose from a variety of AI models (e.g., LLaMA, Gemma, Mixtral) for different use cases.
+- **Multiple AI Models**: Choose from a variety of AI models (e.g., LLama, Gemma, Mixtral) for different use cases.
 - **Streaming Responses**: Real-time streaming of AI-generated responses for a smooth user experience.
 - **Chat History**: Maintains a conversation history with adjustable length.
 - **User Feedback**: Collects user feedback (thumbs up/down) to improve the AI's performance.
@@ -19,7 +19,7 @@ This project is a Streamlit-based web application that allows users to interact 
 
 Here’s an overview of the project's file structure:
 
-- **streamlit/** # Folder containing Streamlit app files.
+- **.streamlit/** # Folder containing secrets app file.
 - **venv/** # Virtual environment for dependencies.
 - **.env_config** # Environment configuration file.
 - **1_Groq_api.py** # Main Groq API implementation.
