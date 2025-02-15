@@ -18,19 +18,19 @@ This project is a Streamlit-based web application that allows users to interact 
 ## File Structure
 
 Here’s an overview of the project's file structure:
-.
-├── streamlit/ # Folder containing Streamlit app files
-├── venv/ # Virtual environment for dependencies
-├── .env_config # Environment configuration file
-├── 1_Groq_api.py # Main Groq API implementation
-├── 2_1_groq_api_dotenv.py # Groq API with .env configuration
-├── 2_2_groq_api_dotenv_with.json # Groq API with .env and JSON configuration
-├── 3_async_groq_api.py # Asynchronous Groq API implementation
-├── 4_async_groq_stream.py # Async streaming with Groq API
-├── 5_Llama_clone.py # Basic LLaMA model implementation
-├── 6_Llama_clone_with_history.py # LLaMA model with chat history
-├── 7_streamlit_llama_clone_userfeedback.py # Streamlit app with user feedback
-└── requirements.txt # List of dependencies
+
+- **streamlit/** # Folder containing Streamlit app files.
+- **venv/** # Virtual environment for dependencies.
+- **.env_config** # Environment configuration file.
+- **1_Groq_api.py** # Main Groq API implementation.
+- **2_1_groq_api_dotenv.py** # Groq API with .env configuration.
+- **2_2_groq_api_dotenv_with.json** # Groq API with .env and JSON configuration.
+- **3_async_groq_api.py** # Asynchronous Groq API implementation.
+- **4_async_groq_stream.py** # Async streaming with Groq API.
+- **5_Llama_clone.py** # Basic LLaMA model implementation.
+- **6_Llama_clone_with_history.py** # LLaMA model with chat history.
+- **7_streamlit_llama_clone_userfeedback.py** # Streamlit app with user feedback.
+- **requirements.txt** # List of dependencies.
 
 ---
 
@@ -48,11 +48,12 @@ Follow these steps to set up the project locally:
    pip install -r requirements.txt
 
 3. **Set up environment variables**:
+   ```bash
    Create a .env file in the root directory.
    Add your Groq API key:
    GROQ_API_KEY=your_api_key_here
 
-4. **Run the Streamlit app**:
+5. **Run the Streamlit app**:
    ```bash
    7_streamlit_llama_clone_userfeedback.py
 
